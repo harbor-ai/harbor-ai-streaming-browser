@@ -1,8 +1,11 @@
 {
   "name": "@harbor-ai/harbor-ai-streaming-browser",
-  "version": "0.0.1",
-  "description": "",
+  "version": "0.0.2",
+  "description": "streaming api for browser to communicate with harbor ai exchange",
   "main": "index.js",
+  "dependencies": {
+    "@vital-ai/haley-js-browser": "^0.1.8"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
